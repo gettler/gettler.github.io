@@ -1,0 +1,153 @@
+/*
+ * gettler.org stylesheet
+ *
+ * Jon Gettler <gettler@acm.org>
+ */
+
+html {
+    background: black;
+}
+
+body {
+    margin: 20px;
+}
+
+a {
+    outline: none;
+}
+
+img {
+    border: 0;
+}
+
+#header, #footer {
+    background: lightgrey;
+}
+
+#header {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 200px;
+    background: url(banner.jpg) no-repeat;
+    max-width: 1500px;
+}
+
+#footer {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 50px;
+    background: black;
+}
+
+#header .logo {
+    float: left;
+    height: 50px;
+    text-decoration: none;
+}
+
+#footer .logo {
+    float: right;
+    height: 50px;
+    text-decoration: none;
+    outline: none;
+}
+
+#left {
+    position: absolute;
+}
+
+#right {
+    margin-left: 180px;
+}
+
+#linklist {
+    width: 160px;
+    background: #7b593d;
+    border-radius: 10px;
+}
+
+#linklist h3 {
+    text-align: center;
+    color: black;
+    background: #ff9c00;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 0px;
+}
+
+#linklist ul {
+    list-style-type: none;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 0px;
+}
+
+#linklist li {
+    color: red;
+}
+
+#linklist a {
+    text-decoration: none;
+    color: white;
+}
+
+#linklist a:hover {
+    color: black;
+}
+
+#intro {
+    width: auto;
+    background: white;
+    border-radius: 10px;
+}
+
+#intro_header {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: white;
+    color: black;
+}
+
+#intro h3 {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    color: #ff9c00;
+}
+
+#intro_body {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: white;
+    color: black;
+}
+
+#intro p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#posts {
+}
+
+#post h3 {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    color: #ff9c00;
+}
+
+#post {
+    color: black;
+    background: white;
+    border-radius: 10px;
+}
+
+#post p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
